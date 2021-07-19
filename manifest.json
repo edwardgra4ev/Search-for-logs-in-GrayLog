@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Search for logs in GrayLog",
+    "version": "1",
+    "icons": {"512": "log.png"},    
+    "content_scripts": [
+      {
+        "matches": [ "*://*/*" ],
+        "js": [ "index.js" ]
+      }
+    ],
+        "browser_action": {
+          "default_title": "Search for logs in GrayLog",
+          "default_popup": "index.html"
+      }
+      
+  }
