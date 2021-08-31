@@ -6,6 +6,7 @@
 </br> 
 Пример:
 ```Json
+URL = "https://www.google.ru/search?q="
 {   
     "Group one" : {
         "Search for coffee" : {
@@ -28,7 +29,7 @@
     }
 }
 ```
-
+`URL` - ссылка по умолчанию (заменить на свою).
 `Group one` - название группы.
 </br> 
 `Search for coffee` - название кнопки для вызова модального кона.
